@@ -1,0 +1,48 @@
+.userform{
+    display:flex ;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin: 3rem;
+    border: 2px solid gray;
+    padding: 2rem;
+}
+.userform div{
+    color: red;
+    font-size: small;
+}
+.newuser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    margin-top: 6rem;
+}
+.regh3{
+    text-align: center;
+    color: rgb(240, 178, 86);
+}
+.newuser label,button{
+    font-size: medium;
+    font-weight: 300;
+}
+.newuser button:hover{
+    color:white;
+    background-color: black;
+}
+.newuser input,.address,button{
+    width: 300px;
+    border-radius: 6px;
+}
+.newuser button{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+}
+.newuser .address{
+    height: 100px;
+}
+@media screen and (min-width:768px){
+    .newuser input,.address,button{
+        width: 600px;
+    }
+}

@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.hea1 {
+  text-align: center;
+  color: #8686ac;
+  margin-top: 6rem;
+  margin-bottom: 20px;
+}
+.mainimgcon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:3rem auto;
+  gap: 2rem;
+}
+.mig1,.mig2,.mig3{
+  width: 100%;
+  height:150px;
+  border-radius: 8px;
+}
+.mig1{
+  background-image: url('./images/meat.png');
+  background-size: cover;
+  background-position:center;
+  border: 1px solid gray;
+}
+.mig1:hover{
+  background-color: #ffbdb250;
+  transition: all ease-in .3s;
+  background-image: none;
+}
+.mig2{
+  background-image: url('./images/bread.jpg');
+  background-size: cover;
+  background-position:center;
+  border: 1px solid gray;
+}
+.mig2:hover{
+  background-color: #ffbdb250;
+  transition: all ease-in .3s;
+  background-image: none;
+}
+.mig3{
+  background-image: url('./images/veggies.jpg');
+  background-size: cover;
+  background-position:center;
+  border: 1px solid gray;
+}
+.mig3:hover{
+  background-color: #ffbdb250;
+  transition: all ease-in .3s;
+  background-image: none;
+}
+.migco{
+  display: none;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.mig1:hover .migco,.mig2:hover .migco,.mig3:hover .migco{
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+  font-family: "Montserrat";
+}
+.sliimg{
+  height: 500px;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+.slip{
+  font-size: large;
+  line-height: 2rem;
+  margin-right:1rem;
+  margin-bottom: 1rem;
+  gap: -3rem;
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.slih{
+  margin-top:2rem;
+  margin-bottom:1rem;
+}
+.main-bor{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #90EE90;
+}
+@media screen and (max-width:768px) {
+  .mainimgcon{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-bor{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .slih,.slip{
+    margin: 1rem;
+  }
+  
+}

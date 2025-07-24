@@ -1,0 +1,25 @@
+.crt{
+    color:rgb(92, 89, 89);
+    text-align: center;
+}
+.cart-item{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.cart-container{
+    margin: 2rem;
+    background-color: #90EE90;
+    border-radius: 8px;
+    padding: 2rem;
+}
+.removebtn{
+    background-color: red;
+    width: 100px;
+    border: none;
+    margin-top: 1rem;
+}
+.removebtn:hover{
+    background-color: #02f802;
+    
+}

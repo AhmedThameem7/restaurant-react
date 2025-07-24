@@ -1,0 +1,51 @@
+.abtcont {
+  margin-right: 20px;
+}
+.abt1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color:#272757;
+}
+.abtp {
+  margin: 3rem;
+  display: flex;
+  line-height: 2rem;
+  text-indent: 2rem;
+  justify-content: center;
+  text-align: justify
+}
+.abth {
+  color: rebeccapurple;
+  margin-left: 20px;
+  margin-top: 6rem;
+}
+.abtgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.abtimg {
+  height:fit-content;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .abtgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+  .abtimg {
+    order: 1;
+    width:70%;
+    margin-top: 30px;
+  }
+  .abtcont {
+    order: 2;
+  }
+  .abtp{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+    line-height: 1.2rem;
+    font-size: 10px;
+  }
+}

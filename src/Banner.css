@@ -1,0 +1,31 @@
+.lo1 {
+  margin-top: 0px;
+  padding: 20px;
+  border-radius: 2rem;
+  width: 70vw;
+}
+.ban{
+  display: grid;
+  height: fit-content;
+  grid-template-columns: 1fr 3fr;
+  background-color: rgba(0, 0, 0, 0.911);
+}
+.bantext{
+  line-height:3rem;
+  letter-spacing: 2px;
+  font-family:'Montserrat','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+  font-size: x-large;
+  color:whitesmoke;
+  margin:auto
+}
+@media screen and (max-width:768px) {
+  .lo1{
+   width: 100%;
+  }
+  .ban{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+}
